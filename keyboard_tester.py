@@ -8,7 +8,7 @@ sdl3.SDL_Init(sdl3.SDL_INIT_VIDEO)
 #window and renderer
 WIDTH = 768
 HEIGHT = 360
-window = sdl3.SDL_CreateWindow("Keyboard Layout".encode(),WIDTH,HEIGHT,0)
+window = sdl3.SDL_CreateWindow("Keyboard Tester".encode(),WIDTH,HEIGHT,0)
 renderer = sdl3.SDL_CreateRenderer(window,None)
 window_surface = sdl3.SDL_GetWindowSurface(window)
 
@@ -179,4 +179,5 @@ while running:
 sdl3.SDL_DestroyWindow(window)
 sdl3.SDL_Quit()
 #P.S: fn doesn't work bruh
+
 
