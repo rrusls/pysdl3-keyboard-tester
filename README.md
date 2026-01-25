@@ -19,7 +19,7 @@ Useful for testing keyboard input and checking stuck or non-working keys.
 Make sure 'keyboard_layout.png' is in the same folder as the script. 
 Run with:
   ```
-  python pysdl3-keyboard-tester.py
+  python keyboard_tester.py
   ```
 # Future
   - honeslty no idea abt this, maybe expand it to be keyboard + mouse tester, but we'll see
