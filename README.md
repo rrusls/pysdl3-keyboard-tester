@@ -1,7 +1,8 @@
 # pysdl3-keyboard-tester
 A very simple Keyboard Tester fully written in Python using PySDL3
 
-![preview](keyboard_tester.py)
+![preview](keyboard_tester.gif)
+
 # Description
 This is a simple keyboard tester written fully on Python without libraries like keyboard or pynput.keyboard. Code is fully written with Simple DirectMedia Layer.
 Useful for testing keyboard input and checking stuck or non-working keys.
